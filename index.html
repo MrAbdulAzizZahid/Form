@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concert</title>
+</head>
+<style>
+    
+    .outer
+    { 
+        height: 850px;
+        width: 40%;
+        border: 4px solid black;
+        margin: 0px 400px;
+        padding-left: 15px;
+    }
+     .head
+     { 
+        height: 100px;
+        width: 100%;
+        text-align: center;
+     }
+     .background
+     { 
+        background-image: url("concert.png");
+        background-repeat: no-repeat;
+        /* background: contain; */
+        height: 1500px;
+     }
+</style>
+<body>
+    <div> 
+        <div class="outer">
+            <div class="background">
+            <div class="head">
+                <u>
+                 <h1>
+                  Concert Registration Form
+                 </h1>
+                 <h3>
+                    fill the registration form to enter in the music Concert
+                 </h3>
+                 </u>
+             </div>
+                <div>
+                    <form>
+                        <h2> Name: </h2>
+                        <input type="text" placeholder="First Name"> &nbsp;
+                        <input type="text" placeholder="Last Name">
+                        <h2> Email</h2>
+                        <input type="Email" placeholder="enter Email">
+                        <h2> Phone Number</h2>
+                        <input type="tel" placeholder="enter your number">
+                        <h2>Gender</h2>
+                        <input type="radio" name="Gender">Male
+                        <input type="radio" name="Gender">Female
+                        <h2>Address</h2>
+                        <input type="text" placeholder="Enter full address" style="width: 300px; height: 30px;">
+                        <br>
+                       <h2><label >
+                        City :</label></h2>
+                        <select>
+                            <option>Lahore</option>
+                            <option>Gujrawala</option>
+                            <option>Karachi</option>
+                            <option>Islamabad</option>
+                            <option>Multan</option>
+                            <option>kasur</option>
+                            <option>Bhawlpur</option>
+                            <option>Sialkot</option>
+                        </select>
+                       
+                      
+                        <h2>Type of seats</h2>
+                        <input type="radio" name="seats">vip
+                        <br>
+                        <input type="radio" name="seats">bussines
+                        <br>
+                        <input type="radio" name="seats">ecnomic 
+                        <br>
+                        <input type="radio" name="seats">top view
+                        <br>
+                        <br>
+                        <input type="submit" ; style="float: right;margin-right: 20px;" >
+                    </form>
+                </div>
+        </div>
+     </div>
+    </div>
+</body>
+</html>
+
